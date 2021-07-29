@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "First Day at Gameloft"
+title: "first day at gameloft"
 date: 2021-05-10 17:10:36 -0400
 categories: jekyll work
 permalink: "/:title"
@@ -30,15 +30,15 @@ Now, down to tasks. I attended a sprint planning session this week too, everyone
 
 We have daily standups at 1:30. They last max half an hour, unless sprint planning is right after. We also call it SCRUM. You can call people out on things that you could work on, and also call them out in general, which can be funny - and rough.
 
-Tech Stack
+### Tech Stack
 
 Anubis deplots servers for games, and keeps track of waht player is joining which room, etc. We have a Controller that keeps track of processes for our game services, and a Lobby services that communicates with the controller and finder, keeping track of people in the room. I remember these were in their own separate files in Gurprit's introductory presentation of the Federation. Anubis was Gameloft's first online service.
 
-SSO
+### SSO
 
 Ali told me that a generated SSO key ties your computer to Gitlab or Github. If the key matches, every time you do something "big"-ish, like push to the origin, you don't have to enter your username and password. You generate a key from your local, and paste it into the remote website. Simple liek that. Patrick taught me a cool command, push origin +HEAD which pushes everything on my current branch to the remote repo's version of that branch.
 
-SQL, Services and Database Services
+### SQL, Services and Database Services
 
 I learned that SQL is a table-row-column database; essentially, it requires a lot from you to store data inside of it. In a noSQL database, this is not the case. You can send in a document, a link, and whatever format it'll be in, it'll accept. I believe he said that MongoDB and Couchbase are of these types. They just accept JSON entries - which are way less rigid, I mean, you can put whatever you want in it, while SQL will complain that you're missing a certain parameter or whatever.
 
@@ -48,24 +48,24 @@ Scaling capacity - Let's take facebook for example. There are so many services F
 
 What load-balancers will see, is that this instance of the photo service is not overwhelmed. Thus, it'll re-think it's replications, and not have to store so many. What NoSQL databases do is be redundant, so information is always highly available if something goes wrong.
 
-Kubernetes
+### Kubernetes
 
 Difference between a docker machine and virtual machine is subtle. The idea is the same - you can have multiple virtual machines on the same computer, each with the same deployment settings (how much CPU you can use, disk space, etc.)
 
-Say you spin up two Docker containers which have two different servers, that have conflicting dependencies; i.e. this service in container 1 and this service in container 2 can't work under the same environment, so they don’t and fundamentally **can't** exist on the same machine.
+Say you spin up two Docker containers which have two different servers, that have conflicting dependencies; i.e. this service in container 1 and this service in container 2 can't work under the same environment, so they don’t and fundamentally can't exist on the same machine.
 
 Docker image - is a snapshot of an operating system - an environment (inclusive of everything, literally **everything** in an environment) which has the exact things you need to run a service. Because I know what services I need to run on this container - I'll isolate the requirements of a service, telling the container - and give instructions on exactly how I'm gonna make you work in this environment.
 
 We can thus send services in Docker containers.
 
-Python virtual environments
+### Python virtual environments
 
 Multiple apps can have different dependencies so you want to isolate them completely so they won’t mess with each other. They can communicate in the meantime, via a portal.
 Python virtual environment is kind of the same thing, installing our dependencies in isolated places. This is not in a set environment - rather, things will go into a very generic place to install those dependencies. If you have two projects that have different dependencies, you use a virtual environment (our virtual environment called fed). We can run our services in (fed) by typing: source fed bin/activate, and (fed) will be activated. We have many dependencies inside fed/lib that we write out, and Python will look for dependencies under the fed workspace.
 
 If you’re not in the fed environment, the services will not run because all the dependencies are in the fed folder under /workspace (the storage space of the fed virtual environment) This has a python link (a soft link) that links to a version of Python (I think?)
 
-Jidoka
+### Jidoka
 
 Jidoka is the name that Gameloft gave to their cloud silos - silos that are running ENTIRELY on the cloud. They use path-based routing to eliminate calls to Pandora - meaning that whenever everything is moved to the cloud, Pandora will be obsolete. Their Metal silos include BOB, CAD, EUR, ASA, APA, CHIN, ANA, MDA, and MDB.
 
@@ -75,11 +75,11 @@ Then there are the Jidoka or cloud silos - Lego, Gangstar, Apacloud, and Common 
 
 Kubernetes allows you to see all these pods, pods each of which correspond to one of the pods here (on fed-int-istio.common-beta)
 
-Kubernetes and the Release Process (?)
+### Kubernetes and the Release Process (?)
 
 First of all, packages. Packages are made when our code gets pushed. Basically, when it gets pushed, it gets packaged. This package is a version of our code that is running. We create a Docker image out of the code by running it through a pipeline. This image is what we will launch. The first question is, can we build a Docker container - which are the first two tests. Second, can we create the Docker image? Third, can we put it into Harbor? Now, on Harbor - this is Gameloft's equivalent of Docker Hub. The convention is: make an image, give the name of the image and "tag" of the image. Push that image to Harbor, where we save our images. When you build a Docker image, you need to keep it somewhere. So build the image, push it to the repository, and then, you can run the image locally by doing "docker pull harbor.gameloft ..." (The reason we run it locally is to debug; get the image, run it locally, and see if the bug happens locally as well - then we can start debugging. This applies to production-level stuff as well) This produces a stretch "code" (a sequence of numbers). ANNND now, our goal is to link this Docker image to Kubernetes. Somehow. But first, what is Kubernetes?
 
-Kubernetes
+### Kubernetes
 
 Kubernetes is an orchestrator for Docker. It uses the architecture of a Jidoka silo to maintain it. When we deploy services, we have two different ways to deploy them - using Debian or Docker for our packages (?). When we release them, we use Docker and Helm - a Docker file is used to run the program in a container, while helm manages this and installs it. Kubernetes uses the architecture of a Jidoka silo; we make our services into Docker images, and use Kubernetes to orchestrate/aintain it. All of our cloud silos run with Kubernetes, and they in turn run Docker images.
 
@@ -96,14 +96,3 @@ Gist: Docker runs images in containers. Kubernetes runs containers in pods.
 We say, "This pod (? what is a pod?) is running this image that was built in the pipeline." (We then did a brief overview of Ingres, which are a set of rules that thells Kubernetes what to do with all the incoming traffic)
 
 -- end of first week
-
-On common-beta:
-
-- we have something called Ingres rules, which is a Kubernetes thing. They look at the URI (v2/users/authorize) so it replaces fed-int with Janus's host and port (the address for Janus)
-- Pandora, on the other hand, is a service that's an API. You call GET /locate and pass in parameter which then gives you 20004 which is for example, Janus
-- Now which services are run (integration test), you see what you need to run and
-- port 20000
-
-System environment variables: when you run a lot of processes on your computer, it needs info that's common to everyone, even though the servces in question don't have anything to do with eachother at all. Let's say both services need to know where your operating system home is. Something saved in your operating system, like ~, is an environment variable telling your terminal where your home directory is.
-
-- Had to run Anubis Control, which stops and starts game servers. But to run, it needs to authorize itself, but it can't find Janus directly, so it asks Pandora where Janus is, gives Janus's endpoint/address, so AnubisControl can authorize itself. OR Tell Anubis Control in the config to use common beta, to use pandora running
