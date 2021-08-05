@@ -1,0 +1,9 @@
+---
+layout: "post"
+title: "introspection"
+date: 2021-07-31 00:00:04 -0400
+categories: jekyll journal
+permalink: "/:title"
+---
+
+text
