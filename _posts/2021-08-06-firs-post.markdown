@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "first post"
-date: 2021-05-10 17:10:36 -0400
+date: 2021-08-06 16:25:00 -0400
 categories: jekyll work
 permalink: "/:title"
 ---
