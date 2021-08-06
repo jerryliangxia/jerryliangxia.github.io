@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "some thoughts"
+title: "first post"
 date: 2021-05-10 17:10:36 -0400
 categories: jekyll work
 permalink: "/:title"
