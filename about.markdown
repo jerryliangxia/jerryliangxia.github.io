@@ -14,4 +14,4 @@ Before university, I had limited experience with technology. I was into a lot of
 
 ### interests
 
-I've been playing guitar for around five years, and love to draw. I'm mostly self-taught with drawing, and 100% the case with guitar. I love to play folk music, as well as pop, and I'm trying to become more fluent in music theory so I can continue to write my own songs.
+I've been playing guitar for around five years, and love to draw. I'm mostly self-taught with drawing, and 100% the case with guitar. I love to play folk music, as well as pop, and I'm trying to become more fluent in music theory so I can continue to write my own songs!
