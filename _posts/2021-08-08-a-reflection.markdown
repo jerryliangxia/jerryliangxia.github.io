@@ -6,18 +6,10 @@ categories: jekyll work
 permalink: "/:title"
 ---
 
-Moments of clarity, shining through. I am obsessed with my own mind; how it should act, what it should think. It permeates so many aspects of my life. And this constant questioning makes me so easily influenced by others.
+Development is cool!
 
-I’ve lived, to be honest, quite an interesting life. High school valedictorian, student council, junior council, ECSESS, the whole mess of graduating high school and first year… the ego, the doubt, the constant stream of thought. Pondering what’s right to think, what’s not right to think. I even came here tonight to write for answers.
+Like, it's really nice. I've always wanted to do something where I can think as a problem solver, and apply my own creativity to the projects I make. When I was a kid, I had my own view of how the world worked at the micro-micro-level. I loved subatomic physics, and I spent many late nights trying to piece this extravagant puzzle together. I've written over 400 pages of work that, although not leading anywhere, are pretty fun to read through now.
 
-And yet, when I was cleaning the trash, a thought came to me - to come from this pure chaos, and find peace through knowing what it’s like to be here, is as such one of life’s finest things. It’s as if an answer exists out there. But if I may, I might have just one:
+I no longer aspire to be a theoretical physicist. But that same thinking, of wondering where specific things go, and how it all works together - is what programming is all about. After working in the industry at Gameloft, I know that being a backend developer contains a lot of admin work. Of asking what to do, gathering information from different teams... which was another plus for me, because I also love talking to different people. It's more in the realm of romanticism, but I think getting to meet everyone of all different views is what gives life it's flavour.
 
-There are no answers.
-
-Life is inherently suffering if you think it to be. Yet, if privileged enough in a given situation, one can look to the present, away from the fog, to gain peace.
-
-That is what I stand by. I’ve been with my friends for the past month, and more, essentially. I’ve been influenced back and forth, dragged here and there by persuaded and persuading minds. One thing I can admit is that I think almost constantly. And to let go, to not give a fuck or to just be here now, I still believe, is such a powerful thing.
-
-Yet there’s also a darkness to that - and that’s that you can tend to be so insensitive, shallow (which is, I believe, reputation-related) (but doesn’t avoiding sadness make you feel so much less?), and awkward - a caveat of living in this society. We thus, may have to suffer to reach this peace - a peace that is rather selfish, because to “clear your mind” is the same as slapping a “be positive” on everything - just like how it is to constantly give advice, rather than just being with the person, letting them figure it out themselves - because they won’t just **believe you** like you so, (honestly) desperately want them to.
-
-What to believe, oh, what to believe? Well, I can say, at least this. Because I did in fact experience it. And perhaps that’s all to say.
+So(if you've read more in my About section), in my leap of faith to become a programmer, I found peace. I always struggled with knowing what I want. I'm glad that programming is so diverse, that I can explore so many mediums, and I can problem-solve and talk to a whole range of different people. As the field becomes more diverse, I look more and more forward to the future. I wonder what new technologies will be here, what tools people will make, and what we can dream of!
