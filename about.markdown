@@ -1,17 +1,26 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
 ---
 
 Hi!
 
-My name's Jerry :) I'm a software engineering student studying at McGill University.
+My name's Jerry :) I'm a Software Engineering student studying at McGill University. Right now, I'm in my third year.
+<br />
 
-### tech
+<p align="center">
+    <img src ="../image.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 300px;"/>
+</p>
 
-Before university, I had limited experience with technology. I was into a lot of graphic design and art, so becoming a developer was something that I took a leap of faith towards. However, I knew at the very least, that I always loved dreaming up wild imaginations. Dreamscapes, the origins of the universe, a lot that had to do with physics and science. In my first year, I realized that the lines of logic I spun up were similar to how computer science works - knowing exactly where things go, how it all comes together to create some working thing. And so the journey began. I started off with what was fun - making small Javascript web games, then moving on to join McGill's Game Dev team, making 2D and 3D platformer games in Unity. I explored my love for graphic design in McGill's Hack4Impact team, where I spun up designs for MU Montréal's CRM system, and did some frontend programming as well. In the summer of 2021, I scored an internship at Gameloft, where I helped maintain the online infrastructure behind all of Gameloft's games. There I learned a lot about agile development, APIs, team version control and was nitpicked a lot for best development practices.
+### Tech
 
-### interests
+Before university, I had limited experience with the technology I use today. I was into a lot of graphic design, so becoming a developer was something that I took a leap of faith on. However, I knew at the very least, that I always loved dreaming up things. A lot of it early on had to do with physics and science, and in my sophomore year, I realized that the lines of logic I spun up were similar to how computer science works - knowing exactly where things go, how it all comes together to create some working "thing". And so the journey began.
 
-I've been playing guitar for around five years, and love to draw. I'm mostly self-taught with drawing, and 100% the case with guitar. I love to play folk music, as well as pop, and I'm trying to become more fluent in music theory so I can continue to write my own songs!
+I started off with what was fun - making small Javascript web games, then moving on to join McGill's Game Dev team, making 2D and 3D platformer games in Unity. I explored my interest in graphic design in McGill's Hack4Impact team, where I spun up wireframes for MU Montréal's CRM system, and did some frontend programming as well. It was all so new, and I found myself absorbed in the languages I learned to communicate these processes. Then, in the summer of 2021, I learned a lot about backend infrastructure. This was at Gameloft Studios, where I helped maintain all the microservices behind Gameloft's games. There, I learned much more about agile development, APIs, team version control and what was meant by best practices implementation.
+
+### Interests
+
+I love expression. In the future, I hope to bring both creativity and technology together, because I think it's where I really shine.
+
+As for hobbies, I've been playing guitar for around five years, and love to sketch and draw. I'm mostly self-taught with drawing ([here](https://www.behance.net/jerryxia)'s the link to some of my artwork), and 100% the case with guitar. I love to play all music (currently learning Good News by Mac Miller), and I'm trying to become more fluent in music theory so I can start writing my own songs :)
