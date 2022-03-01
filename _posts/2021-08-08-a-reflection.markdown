@@ -18,4 +18,4 @@ I remember someone telling me that as we get older, our problems deviate in size
 
 My new years resolution used to be all about putting myself out there. I’m still going to do that, but also take the time to turn the sails of who I want to end up as at the end of my university experience. There’s no picturesque goal in mind, really; just a rough idea of what I’ve seen before that’s good, and my goal to become something alongside that.
 
-Thanks for reading.
+Thanks for reading :)
