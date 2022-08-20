@@ -19,18 +19,18 @@ Here's the [link](https://momento-project.netlify.app/) to the first app (I've p
 This was my first individual project in full-stack development. It took a while to get used to the flow of creating HTTP requests, and there were a lot of issues that had to do with versioning (MongoDB and React especially). The frontend involved a lot of trial-and-error (I used [Material UI](https://mui.com/) for this), while the backend was pretty simple to set up. Here's the [source code](https://github.com/jerryliangxia/Memories-Project), and a picture of what you'd see:
 
 <p align="left">
-    <img src ="../momento.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
+    <img src ="../images/websites-ive-made/momento.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
 </p>
 ---
 <br />
 The next site I made was a cryptocurrency viewer. This was built with RapidAPI and [Ant Design](https://ant.design/) for styling. It's able to query a list of the top 100 cryptocurrencies, and individual information about a specific cryptocurrency. [Here](https://crypto-viewing-project.netlify.app/)'s the link, the [source code](https://github.com/jerryliangxia/cryptocurrency-viewer), and some pictures:
 
 <p align="left">
-    <img src ="../individual_crypto.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
+    <img src ="../images/websites-ive-made/individual_crypto.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
 </p>
 
 <p align="left">
-    <img src ="../main_crypto.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
+    <img src ="../images/websites-ive-made/main_crypto.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
 </p>
 
 I also toyed around by adding a kbar, which is documented [here](https://kbar.vercel.app/).
@@ -41,13 +41,13 @@ I also toyed around by adding a kbar, which is documented [here](https://kbar.ve
 The last site is pretty simple. It's a [Google Search clone](https://google-searcher-clone-project.netlify.app/search), also using RapidAPI, that queries from four sections: general links ("all"), images, news, and videos. It uses a simple UI, and the styling was generated with Tailwind CSS. [Here](https://github.com/jerryliangxia/google-search-clone)'s the link to the source code, and a picture:
 
 <p align="left">
-    <img src ="../goggl_light.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
+    <img src ="../images/websites-ive-made/goggl_light.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
 </p>
 
 It also has a dark mode:
 
 <p align="left">
-    <img src ="../goggl_dark.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
+    <img src ="../images/websites-ive-made/goggl_dark.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
 </p>
 
 ---
@@ -56,4 +56,4 @@ It also has a dark mode:
 
 These sites were definitely fun to make, and I found myself moving from one to another pretty quickly (especially after the first one, since it took a while).
 
-That's it for now! Thanks for reading :)
+That's it for now! Thanks for reading 😃

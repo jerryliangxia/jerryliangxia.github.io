@@ -80,13 +80,13 @@ The basic gist of the application can be seen in the demo (via the GitHub link).
 Here's a Post:
 
 <p align="left">
-    <img src ="../zp.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 300px;"/>
+    <img src ="../images/creating-a-full-stack-application/zp.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 300px;"/>
 </p>
 
 And here's the Form:
 
 <p align="left">
-    <img src ="../form.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 300px;"/>
+    <img src ="../images/creating-a-full-stack-application/form.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 300px;"/>
 </p>
 
 Let's dive right into the database setup.
@@ -739,5 +739,13 @@ You can now close your servers and use your new application!
 Here's an example of what I had (again, GitHub is best to see the full working demo):
 
 <p align="center">
-    <img src ="screencapture.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 750px;"/>
+    <img src ="../images/creating-a-full-stack-application/screencapture.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 750px;"/>
+</p>
+
+### Update!
+
+I've added a lot more to the site (so the link will definitely redirect you to something more interesting), here's a screen cap of it now, with a few other friends' posts 😊
+
+<p align="center">
+    <img src ="../images/creating-a-full-stack-application/final-result.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 750px;"/>
 </p>

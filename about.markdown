@@ -10,7 +10,7 @@ My name's Jerry :) I'm a Software Engineering student studying at McGill Univers
 <br />
 
 <p align="center">
-    <img src ="../image.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 300px;"/>
+    <img src ="../images/about-page/solo-picture.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 300px;"/>
 </p>
 
 ### Tech
