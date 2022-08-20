@@ -32,7 +32,7 @@ I recently followed a tutorial going over how to create a fully functioning MERN
 
 I've summarized here as much as I could, with all the technical details needed to make sure the application works. The server's deployed on Heroku, and the frontend on Netlify ([Here](https://github.com/jerryliangxia/Memories-Project)'s the link to the source code on GitHub).
 
-This tutorial is pretty lengthy, with a lot of instructions, and some hopefully concrete explanations. I hope it helps! 🤓
+This tutorial is lengthy, with a lot of instructions, and some hopefully concrete explanations. I hope it helps!
 
 ---
 
