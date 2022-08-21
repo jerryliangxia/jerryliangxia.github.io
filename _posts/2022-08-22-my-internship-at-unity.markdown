@@ -30,19 +30,19 @@ At the end of these tasks, I had created several pages and laid out the architec
 
 ## Final thoughts
 
-I would not have written this post without respecting the people that helped shape my experience. I got to know so many brilliant minds at Unity, whose talents are highly respectable. I look toward my mentor, Martin Bouchard, pictured below who helped me become a better programmer. His dedication as a mentor helped me overcome issues that made me a stronger, more disciplined developer, which I'm very grateful for.
+I would not have written this post without respecting the people that helped shape my experience. I got to know so many brilliant minds at Unity, whose talents are highly commendable. I look toward my mentor, Martin Bouchard, pictured below who helped me become a better programmer. His dedication as a mentor helped me overcome issues that made me a stronger, more disciplined developer, which I'm very grateful for.
 
 <p align="center">
     <img src ="../images/unity/martin.jpg" style="max-width: 300px" />
 </p>
 
-Then there's my team. This includes my manager, Sebastien Parent (pictured to the left in black), who became an overseer of two teams over the course of my internship. His dedication as a senior developer, as well as his high level of skill, was exceptional. One of the things I'll miss are the debates between him and Martin over my work; as I became more confident in my skills, it was fun to be a part of the conversation and play a bigger role in the team.
+Then there's my team. This includes my manager, Sebastien Parent (pictured to the left in black), who became an overseer of two teams over the course of my internship. His dedication as a senior developer, as well as his high level of skill, was admirable. One of the things I'll miss are the discussions between him and Martin over my work; as I became more confident in my skills, it was fun to be a part of the conversation and play a bigger role in the team.
 
 <p align="center">
     <img src ="../images/unity/team.jpeg" style="max-width: 500px" />
 </p>
 
-Then there's the interns. I learned a lot of personal skills here, which showed me how to become a better person. I had a great time with them, and hope nothing but the best for every one of them.
+Then there's the interns. I learned a lot of personal skills here, which showed me how to become a better person. I had a great time with them, and wish nothing but the best.
 
 <p align="center">
     <img src ="../images/unity/ricky-me-eric.jpeg" style="max-width: 500px" />
@@ -61,6 +61,6 @@ Then there's the interns. I learned a lot of personal skills here, which showed 
     <img src ="../images/unity/interns-bbq.jpg" style="max-width: 500px; padding:10px;" />
 </p>
 
-This ends my post. I had such a great time at Unity, and raise a glass to everyone I've met and grown from there. Thanks for such an amazing summer, and teaching me so much about what it is to enjoy yourself at work, and with others.
+This ends my post. I had such a great time at Unity, and raise a toast to everyone I've met and grown from there. Thanks for such an amazing summer, and teaching me so much about what it is to enjoy yourself at work, and with others.
 
 Thanks so much for reading! Until the next one :)
