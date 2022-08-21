@@ -26,7 +26,7 @@ I got used to several React conventions, and even went so far as teaching these 
 
 I also communicated with our product designer on several occasions, making sure that their designs, from a developer's perspective, were feasible, recyclable and maintainable. This took a number of meetings to ensure.
 
-At the end of these tasks, I had created several pages and laid out the architecture for the Unity Licensing Dashboard. With this work, I'm happy to have created the foundation for which the website will be maintained and created from. I didn't know I'd play such a large role as just an intern!
+At the end of these tasks, I had created several pages and laid out the architecture for the Unity Licensing Dashboard. With this work, I'm happy to have created the foundation for which the website will be maintained and created from.
 
 ## Final thoughts
 
