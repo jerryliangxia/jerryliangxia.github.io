@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Leetcoding Notes"
+title: "Leetcoding Notes (Python)"
 date: 2022-09-10 11:19:00 -0400
 categories: jekyll work
 permalink: "/:title"
@@ -28,6 +28,8 @@ Small Tips
 - If you are using a table for DP, make the DP table the same length as the input array
 
 <h3>General useful notes</h3>
+
+Things to remember: `set(arr)` -> simplifies array `arr` into a set
 
 ```python
 # Using a global variable and helper function
@@ -57,6 +59,20 @@ class Solution(object):
 d[num] = d.get(num, 0) + 1
 l.insert(0, num)
 float('inf'), float('-inf')
+
+# Keep track of two largest numbers in array
+nums = [2,4,6,1,6,9,1]
+
+first, second = 0, 0
+    for num in nums:
+        if num > first:
+            first, second = num, first
+        else:
+            second = max(second, num)
+    return (first - 1)*(second - 1)
+
+# Create set of numbers without a specific element
+return set(nums) - {0}
 ```
 
 Arrays:
@@ -251,6 +267,31 @@ def maxDepth(self, root):
         return max(left, right)
 
     return helper(root, 0)
+```
+
+<h4>Heaps with Python heapq</h4>
+
+```python
+import heapq
+
+# Initialize a heap
+arr = [1,2,4,5,6,7]
+heapq.heapify(arr)
+
+# Maintain the heap (popping, pushing)
+heapq.heappop(arr)
+heapq.heappush(arr, num)
+
+# Get the top of the heap, treat it as a list
+return arr[0]
+
+# Max heap: just make all the elements negative. Using list comprehension:
+nums = [-num for num in nums]
+
+# Other operations are as follows:
+heapq.heappush(nums, -newNum)
+poppedValue = -heapq.heappop(nums)
+return -nums[0]
 ```
 
 ... more to come later!
