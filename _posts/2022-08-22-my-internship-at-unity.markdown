@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "My Internship at Unity (with pictures!)"
+title: "My Internship at Unity"
 date: 2022-08-20 11:39:00 -0400
 categories: jekyll work
 permalink: "/:title"
