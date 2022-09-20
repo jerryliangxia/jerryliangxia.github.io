@@ -19,12 +19,15 @@ permalink: "/:title"
 
 These are a list of questions I've come across that have helped me better my LeetCoding skills.
 
-Some good questions to start with:
+Some good questions to start with (I'd recommend in order):
 
 - [Shuffle String](https://leetcode.com/problems/shuffle-string/)
+- [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 - [Check if two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 - [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
+- [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 - [TwoSum](https://leetcode.com/problems/two-sum/)
 - [Move Zeroes](https://leetcode.com/problems/move-zeroes/), [Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - [Reverse Integer](https://leetcode.com/problems/reverse-integer/), [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
