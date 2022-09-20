@@ -8,11 +8,11 @@ permalink: "/:title"
 
 Over the past four months I've had the pleasure of working at Unity Technologies in Montréal, QC on the Licensing & Entitlement team. It was a very memorable experience, one where I grew as a developer, teammate and person. Here's a post dedicated to my internship at Unity this summer, and what I learned as a developer.
 
-1. [Backend work](#backend-work)
+- [Backend work](#backend-work)
 
-2. [Frontend work](#frontend-work)
+- [Frontend work](#frontend-work)
 
-3. [Final thoughts](#final-thoughts)
+- [Final thoughts](#final-thoughts)
 
 ## Backend work
 
@@ -33,32 +33,23 @@ At the end of these tasks, I created several pages and laid out the architecture
 I would not have written this post without respecting the people that helped shape my experience. I got to know so many brilliant minds at Unity, whose talents are highly commendable. I look toward my mentor, Martin Bouchard, pictured below who helped me become a better programmer. His dedication as a mentor helped me overcome issues that made me a stronger developer, which I'm really grateful for.
 
 <p align="center">
-    <img src ="../images/unity/martin.jpg" style="max-width: 300px" />
+    <img src ="../images/unity/martin.jpg" style="max-width: 350px; height: auto;" />
 </p>
 
-Then there's my team. This includes my manager, Sebastien Parent (pictured to the left in black), who became an overseer of two teams over the course of my internship. His dedication as a senior developer, as well as his high level of skill, was admirable. One of the things I'll miss are the discussions between him and Martin over my work; as I became more confident in my skills, it was fun to be a part of the conversation and play a bigger role in the team.
+Then there's my team. This includes my manager, Sébastien Parent (pictured to the left in black), who became an overseer of two teams over the course of my internship. His dedication as a senior developer, as well as his high level of skill, was admirable. One of the things I'll miss are the discussions between him and Martin over my work; as I became more confident in my skills, it was fun to be a part of the conversation and play a bigger role in the team.
 
 <p align="center">
-    <img src ="../images/unity/team.jpeg" style="max-width: 500px" />
+    <img src ="../images/unity/team.jpeg" style="height: auto;" />
 </p>
 
-Then there's the interns. I grew a lot with them during my time here, and wish each of them nothing but the best :))
+Then there's the interns. I grew a lot with them during my time here!
 
 <p align="center">
-    <img src ="../images/unity/ricky-me-eric.jpeg" style="max-width: 500px" />
+    <img src ="../images/unity/ricky-me-eric.jpeg" style="height: auto;" />
 </p>
 
 <p align="center">
-    <img src ="../images/unity/interns.jpeg" style="max-width: 500px; padding-bottom: 10px;" />
-</p>
-
-<h1 align="center">Some more images</h1>
-
-<p align="center" >
-    <img src ="../images/unity/team-bbq-2.jpg" style="max-width: 500px; padding:10px;" />
-    <img src ="../images/unity/team-bbq-3.jpg" style="max-width: 500px; padding:10px;" />
-    <img src ="../images/unity/hersh-me.jpg" style="max-width: 500px; padding:10px;" />
-    <img src ="../images/unity/interns-bbq.jpg" style="max-width: 500px; padding:10px;" />
+    <img src ="../images/unity/interns.jpeg" style="padding-bottom: 10px; height: auto;" />
 </p>
 
 This ends my post. I had a great time at Unity, and raise a toast to everyone I've gotten to know from there. Thanks you Unity for an amazing summer, and teaching me so much about what it is to enjoy yourself at work, and with others.

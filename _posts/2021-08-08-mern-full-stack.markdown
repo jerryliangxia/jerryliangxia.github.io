@@ -739,7 +739,7 @@ You can now close your servers and use your new application!
 Here's an example of what I had (again, GitHub is best to see the full working demo):
 
 <p align="center">
-    <img src ="../images/creating-a-full-stack-application/screencapture.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 750px;"/>
+    <img src ="../images/creating-a-full-stack-application/screencapture.png" style="display: block; margin-left: auto; margin-right: auto; width: auto; height: auto;"/>
 </p>
 
 ### Update!
@@ -747,5 +747,5 @@ Here's an example of what I had (again, GitHub is best to see the full working d
 I've added a lot more to the site (so the link will definitely redirect you to something more interesting), here's a screen cap of it now, with a few other friends' posts:
 
 <p align="center">
-    <img src ="../images/creating-a-full-stack-application/final-result.png" style="display: block; margin-left: auto; margin-right: auto; width:25%;min-width: 750px;"/>
+    <img src ="../images/creating-a-full-stack-application/final-result.png" style="display: block; margin-left: auto; margin-right: auto; width: auto; height: auto;"/>
 </p>

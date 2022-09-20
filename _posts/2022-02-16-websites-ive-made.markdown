@@ -19,7 +19,7 @@ Here's the [link](https://momento-project.netlify.app/) to the first app (I've p
 This was my first individual project in full-stack development. It took a while to get used to the flow of creating HTTP requests, and there were a lot of issues that had to do with versioning (MongoDB and React especially). The frontend involved a lot of trial-and-error (I used [Material UI](https://mui.com/) for this), while the backend was pretty simple to set up. Here's the [source code](https://github.com/jerryliangxia/Memories-Project), and a picture of what you'd see:
 
 <p align="left">
-    <img src ="../images/websites-ive-made/momento.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
+    <img src ="../images/creating-a-full-stack-application/momento.png" style="display: block; margin-left: auto; margin-right: auto;min-width: 300px;"/>
 </p>
 ---
 <br />
