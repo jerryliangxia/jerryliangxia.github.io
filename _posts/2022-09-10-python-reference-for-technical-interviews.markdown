@@ -20,8 +20,6 @@ permalink: "/:title"
 
 I've always LeetCoded in Python. In this post, I want to digitize Python's functionalities to enable easier access for myself and others. This should cover the basics of Python's built-in data structures as well as some less obvious parts of the language's syntax. This post will also likely get updated frequently as I add new things, fix mistakes, etc.
 
-[See my LeetCode stats here!](https://leetcode.com/jerrylxia/)
-
 ### Data Structures and Other Basics
 
 #### Lists and Strings

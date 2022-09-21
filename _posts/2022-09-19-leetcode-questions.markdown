@@ -19,6 +19,11 @@ permalink: "/:title"
 
 These are a list of questions I've come across that have helped me better my LeetCoding skills.
 
+See my [LeetCode stats here!](https://leetcode.com/xiaj)
+
+---
+
+<br/>
 Some good questions to start with (I'd recommend in order):
 
 - [Shuffle String](https://leetcode.com/problems/shuffle-string/)
@@ -101,6 +106,8 @@ def plusOne(self, digits):
 
 ```python
 # This searches for an index where a target lies
+
+# You return l because once the target is found, r will be greater than l.
 l, r = 0, len(nums)-1
 while l <= r:
     mid = (l + r)/2
