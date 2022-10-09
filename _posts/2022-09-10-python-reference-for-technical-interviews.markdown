@@ -16,7 +16,7 @@ permalink: "/:title"
 - [Classes](#classes)
 - [Numbers](#numbers)
 
-**Last updated:** September 19, 2022
+**Last updated:** October 9, 2022
 
 I've always LeetCoded in Python. In this post, I want to digitize Python's functionalities to enable easier access for myself and others. This should cover the basics of Python's built-in data structures as well as some less obvious parts of the language's syntax. This post will also likely get updated frequently as I add new things, fix mistakes, etc.
 
@@ -29,6 +29,11 @@ Lists in python are very similar to strings. Here are some operations/functions 
 ```python
 # Convert list to string
 new_string = ''.join(map(str, list1))
+
+# Reverse list or string
+s = "Hello World!"[::-1]
+s = s[::-1]
+# returns "dlroW olleH"
 
 # Obtaining length from two indices
 length = r - l + 1
@@ -84,6 +89,9 @@ for sublist in l:
     for item in sublist:
         flat_list.append(item)
 
+# get sum of all even elements in list
+S = sum(x for x in nums if x % 2 == 0)
+
 # A stack and its operations
 stack = []
 stack.pop()
@@ -102,6 +110,9 @@ Helpful operations that only work on strings:
 ```python
 # Sort a string a based on character values
 temp = ''.join(map(str, sorted(a)))
+
+# Another example of the above: reversing every word in a string individually
+return ' '.join(x[::-1] for x in s.split())
 
 # Substituting values in a string s - in this case a-z and 0-9
 s = re.sub("[^a-z|^0-9]","",s.lower())
