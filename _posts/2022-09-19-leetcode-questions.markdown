@@ -15,7 +15,7 @@ permalink: "/:title"
 - [Palindromes](#palindromes)
 - [Sliding Window](#sliding-window)
 
-**Last updated:** September 19, 2022
+**Last updated:** October 30, 2022
 
 These are a list of questions I've come across that have helped me better my LeetCoding skills.
 
@@ -52,6 +52,7 @@ Things to think about...
 
 - Can you shorten/**filter** what you are to iterate through? Maybe shorten a list by making it into a tuple of `(index, item)` entries?
 - Iterating through the input isn't terrible; sometimes solving a problem depends on how sound the logic can be.
+- Consider the case in which the intended action isn't ever made. How do you navigate that? (ex: Move Zeroes)
 
 ### Arrays
 
@@ -109,14 +110,14 @@ def plusOne(self, digits):
 
 # You return l because once the target is found, r will be greater than l.
 l, r = 0, len(nums)-1
-while l <= r:
+while l <= r:   # important: should be <= not <
     mid = (l + r)/2
     if nums[mid] == target:
         return mid
     if nums[mid] < target:
-        mid = l + 1
+        l = mid + 1
     else:
-        mid = r - 1
+        r = mid - 1
 return l
 ```
 
@@ -224,19 +225,16 @@ def findAndReplacePattern(self, words, pattern):
     :type pattern: str
     :rtype: List[str]
     """
-    # temp dicts
-    d1 = {}
-    d2 = {}
     out = []
     for word in words:
         isValid = True
-        d1 = {}
-        d2 = {}
-        for patternChar, char in zip(pattern, word):
-            if char not in d1 and patternChar not in d2:
-                d1[char] = patternChar
-                d2[patternChar] = char
-            elif d1.get(char) != patternChar and d2.get(patternChar) != char:
+        pattern_dict = {}
+        word_dict = {}
+        for char, pattern_char in zip(word, pattern):
+            if char not in word_dict and pattern_char not in pattern_dict:
+                pattern_dict[pattern_char] = char
+                word_dict[char] = pattern_char
+            elif pattern_dict.get(pattern_char) != char and word_dict.get(char) != pattern_char:
                 isValid = False
                 break
         if isValid:
@@ -248,17 +246,15 @@ def isIsomorphic(self, s, t):
     :type s: str
     :type t: str
     :rtype: bool
-
-    create a dictionary
-    d[specific letter] =
     """
-    d_s = {}
-    d_t = {}
-    for i, a in enumerate(s):
-        if a not in d_s and t[i] not in d_t:
-            d_s[a] = t[i]
-            d_t[t[i]] = a
-        elif d_s.get(a) != t[i] and d_t.get(t[i]) != a:
+    s_dict = {}
+    t_dict = {}
+    for s_char, t_char in zip(s, t):
+        # need to check mutual exclusivity; not just one dict
+        if s_char not in s_dict and t_char not in t_dict:
+            s_dict[s_char] = t_char
+            t_dict[t_char] = s_char
+        elif s_dict.get(s_char) != t_char and t_dict.get(t_char) != s_char:
             return False
     return True
 ```
@@ -546,7 +542,7 @@ class Solution(object):
             return s[l+1:r]
 
         res = ""
-        for i in range(len(s)):
+        for i in range(len(s)): # despite the i + 1 below, we still have len(s)
             for l, r in [(i, i), (i, i + 1)]:
                 temp = helper(s, l, r)
                 if len(temp) > len(res):

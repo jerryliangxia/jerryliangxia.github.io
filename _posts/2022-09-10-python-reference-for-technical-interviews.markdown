@@ -16,7 +16,7 @@ permalink: "/:title"
 - [Classes](#classes)
 - [Numbers](#numbers)
 
-**Last updated:** October 9, 2022
+**Last updated:** October 30, 2022
 
 I've always LeetCoded in Python. In this post, I want to digitize Python's functionalities to enable easier access for myself and others. This should cover the basics of Python's built-in data structures as well as some less obvious parts of the language's syntax. This post will also likely get updated frequently as I add new things, fix mistakes, etc.
 
@@ -76,6 +76,10 @@ l.insert(0, num)
 
 # Sets
 set(nums)
+
+# Zip together two iterables and traverse through them simultaneously
+for char, pattern_char in zip(word, pattern):
+    ...
 
 # Create set of distinct elements without a specific element
 new_set = set(nums) - {0}
