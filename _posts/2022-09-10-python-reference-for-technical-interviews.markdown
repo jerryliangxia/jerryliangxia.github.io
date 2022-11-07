@@ -16,7 +16,7 @@ permalink: "/:title"
 - [Classes](#classes)
 - [Numbers](#numbers)
 
-**Last updated:** October 30, 2022
+**Last updated:** November 7, 2022
 
 I've always LeetCoded in Python. In this post, I want to digitize Python's functionalities to enable easier access for myself and others. This should cover the basics of Python's built-in data structures as well as some less obvious parts of the language's syntax. This post will also likely get updated frequently as I add new things, fix mistakes, etc.
 
@@ -55,6 +55,7 @@ new_arr = arr[1:]
 new_str = str[start:end]
 remove_three_from_end = str[:len(list1)-3]
 remove_one_from_start = str[1:]
+remove_all_but_i = nums[:i]+nums[i+1:]
 
 # Extracting a substring with index pointers l and r:
 s = "ADOBECODEBANC"
@@ -205,4 +206,18 @@ class Solution(object):
 
         helper(root)
         return out
+
+        # Using a non-nested function declaration:
+class Solution(object):
+    # DFS
+    def permute(self, nums):
+        res = []
+        self.dfs(nums, [], res)
+        return res
+
+    def dfs(self, nums, path, res):
+        if not nums:
+            res.append(path)
+        for i in xrange(len(nums)):
+            self.dfs(nums[:i]+nums[i+1:], path+[nums[i]], res)
 ```
