@@ -16,7 +16,7 @@ permalink: "/:title"
 - [Classes](#classes)
 - [Numbers](#numbers)
 
-**Last updated:** November 7, 2022
+**Last updated:** November 8, 2022
 
 I've always LeetCoded in Python. In this post, I want to digitize Python's functionalities to enable easier access for myself and others. This should cover the basics of Python's built-in data structures as well as some less obvious parts of the language's syntax. This post will also likely get updated frequently as I add new things, fix mistakes, etc.
 
@@ -207,7 +207,7 @@ class Solution(object):
         helper(root)
         return out
 
-        # Using a non-nested function declaration:
+# Using a non-nested function declaration:
 class Solution(object):
     # DFS
     def permute(self, nums):
@@ -220,4 +220,24 @@ class Solution(object):
             res.append(path)
         for i in xrange(len(nums)):
             self.dfs(nums[:i]+nums[i+1:], path+[nums[i]], res)
+
+# Using an __init__ function:
+class Solution(object):
+    def __init__(self):
+        self.total = 0
+
+    def convertBST(self, root):
+        """
+        :type root: TreeNode
+        :rtype: TreeNode
+
+        right, root, left
+        """
+
+        if root:
+            self.convertBST(root.right)
+            self.total += root.val
+            root.val = self.total
+            self.convertBST(root.left)
+        return root
 ```
